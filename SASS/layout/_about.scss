@@ -1,0 +1,43 @@
+.about {
+  display: flex;
+  padding-top: 168px;
+}
+.about-title {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 166.667% */
+}
+.about-text {
+  color: #8f95a5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  width: 635px;
+  padding-bottom: 60px;
+  margin-right: 200px;
+}
+.about-list {
+  display: flex;
+  gap: 160px;
+}
+.about-item {
+  text-align: center;
+}
+.about-item-title {
+  color: #2a3246;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px; /* 166.667% */
+}
+.about-item-text {
+  color: #8f95a5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.about-img {
+  margin-bottom: 190px;
+}
