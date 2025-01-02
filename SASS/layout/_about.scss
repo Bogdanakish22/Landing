@@ -1,43 +1,185 @@
 .about {
-  display: flex;
-  padding-top: 168px;
-}
-.about-title {
-  color: #000;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 80px; /* 166.667% */
-}
-.about-text {
-  color: #8f95a5;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  width: 635px;
-  padding-bottom: 60px;
-  margin-right: 200px;
-}
-.about-list {
-  display: flex;
-  gap: 160px;
-}
-.about-item {
-  text-align: center;
-}
-.about-item-title {
-  color: #2a3246;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 80px; /* 166.667% */
-}
-.about-item-text {
-  color: #8f95a5;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-}
-.about-img {
-  margin-bottom: 190px;
+  .about-title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 166.667% */
+  }
+  .about-text {
+    color: #8f95a5;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    width: 635px;
+    // padding-bottom: 60px;
+    // margin-right: 100px;
+    width: 318px;
+  }
+  .about-list {
+    display: flex;
+    gap: 45px;
+  }
+  .about-item {
+    text-align: center;
+  }
+  .about-item-title {
+    color: #2a3246;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 166.667% */
+  }
+  .about-item-text {
+    color: #8f95a5;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .about-img {
+    // margin-bottom: 190px;
+    width: 283px;
+    height: 283px;
+  }
+  @media screen and (min-width: 380px) {
+  }
+  @media screen and (min-width: 575px) {
+    .about-img {
+      width: 352px;
+      height: 352px;
+    }
+    .about-title {
+      color: #000;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px; /* 266.667% */
+    }
+    .about-text {
+      width: 510px;
+    }
+    .about-list {
+    }
+    .about-item {
+    }
+    .about-item-title {
+    }
+    .about-item-text {
+    }
+  }
+  @media screen and (min-width: 767px) {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    .about-img {
+      width: 295px;
+      height: 295px;
+    }
+    .about-title {
+      color: #000;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 80px; /* 266.667% */
+    }
+    .about-text {
+      width: 321px;
+    }
+    .about-list {
+    }
+    .about-item {
+    }
+    .about-item-title {
+      color: #2a3246;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 80px; /* 363.636% */
+    }
+    .about-item-text {
+      color: #8f95a5;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .about-img {
+      width: 336px;
+      height: 336px;
+    }
+    .about-title {
+      color: #000;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px; /* 222.222% */
+    }
+    .about-text {
+      width: 525px;
+      color: #8f95a5;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    .about-list {
+      display: flex;
+      gap: 60px;
+    }
+    .about-item {
+    }
+    .about-item-title {
+      color: #2a3246;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px; /* 266.667% */
+    }
+    .about-item-text {
+      color: #8f95a5;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    padding-top: 168px;
+    .about-img {
+      width: 500px;
+      height: 500px;
+    }
+    .about-title {
+      color: #000;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px; /* 166.667% */
+    }
+    .about-text {
+      color: #8f95a5;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      width: 635px;
+      margin-bottom: 46px;
+    }
+    .about-list {
+      display: flex;
+      gap: 130px;
+    }
+    .about-item {
+    }
+    .about-item-title {
+      color: #2a3246;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px; /* 166.667% */
+    }
+    .about-item-text {
+      color: #8f95a5;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
 }

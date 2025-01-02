@@ -1,47 +1,197 @@
 .contact {
-  display: flex;
-}
-.contact-img {
-  margin-right: 110px;
-  margin-bottom: 133px;
-}
-.contact-title {
-  color: #000;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 80px; /* 166.667% */
-  margin-bottom: 37px;
-  padding-top: 33px;
-}
-.contact-text {
-  color: #8f95a5;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  width: 776px;
-}
-.contact-bunner-form {
-}
-.contact-bunner-input {
-  color: #8f95a5;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  width: 450px;
-  height: 80px;
-  border-radius: 10px;
-  border: 1px solid #8f95a5;
-  padding-left: 30px;
-  margin-top: 52px;
-}
-.contact-bunner-btn {
-  color: #fff;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  width: 264px;
-  height: 80px;
-  border-radius: 10px;
-  background-color: #263238;
+  margin-top: 65px;
+  .contact-img {
+  }
+  .contact-title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px; /* 166.667% */
+  }
+  .contact-text {
+    color: #8f95a5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 266px;
+  }
+  .contact-bunner-form {
+    flex-wrap: wrap;
+  }
+  .contact-bunner-input {
+    color: #8f95a5;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    width: 291px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #8f95a5;
+    padding-left: 30px;
+    margin-top: 52px;
+    margin-bottom: 17px;
+  }
+  .contact-bunner-btn {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    width: 290px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #263238;
+  }
+  @media screen and (min-width: 380px) {
+  }
+  @media screen and (min-width: 575px) {
+    .contact-title {
+      color: #000;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px; /* 266.667% */
+    }
+    .contact-img {
+      width: 358px;
+      height: 322px;
+    }
+    .contact-text {
+      width: 485px;
+      color: #8f95a5;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    .contact-bunner-form {
+      // display: flex;
+      // flex-direction: column;
+      // gap: 9px;
+    }
+    .contact-bunner-input {
+      width: 310px;
+      height: 60px;
+    }
+    .contact-bunner-btn {
+      width: 193px;
+      height: 60px;
+    }
+  }
+  @media screen and (min-width: 767px) {
+    display: flex;
+    gap: 38px;
+    align-items: center;
+    .contact-title {
+      color: #000;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px; /* 266.667% */
+    }
+    .contact-img {
+      width: 233px;
+      height: 210px;
+    }
+    .contact-text {
+      width: 393px;
+      color: #8f95a5;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      text-align: left;
+    }
+    .contact-bunner-form {
+    }
+    .contact-bunner-input {
+      color: #8f95a5;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      width: 283px;
+      height: 50px;
+      border-radius: 5px;
+      border: 1px solid #8f95a5;
+    }
+    .contact-bunner-btn {
+      width: 145px;
+      height: 50px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .contact-title {
+      color: #000;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px; /* 222.222% */
+    }
+    .contact-img {
+      width: 312px;
+      height: 281px;
+    }
+    .contact-text {
+      color: #8f95a5;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+    .contact-bunner-form {
+    }
+    .contact-bunner-input {
+      width: 323px;
+      height: 60px;
+      border-radius: 10px;
+      border: 1px solid #8f95a5;
+    }
+    .contact-bunner-btn {
+      width: 193px;
+      height: 60px;
+      border-radius: 10px;
+      background: #263238;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    .contact-title {
+      color: #000;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 80px; /* 166.667% */
+    }
+    .contact-img {
+      width: 477px;
+      height: 429px;
+    }
+    .contact-text {
+      color: #8f95a5;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      width: 700px;
+    }
+    .contact-bunner-form {
+    }
+    .contact-bunner-input {
+      color: #8f95a5;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      width: 400px;
+      height: 80px;
+      border-radius: 10px;
+      border: 1px solid #8f95a5;
+    }
+    .contact-bunner-btn {
+      color: #fff;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      width: 264px;
+      height: 80px;
+      border-radius: 10px;
+      background: #263238;
+    }
+  }
 }

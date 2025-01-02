@@ -22,6 +22,9 @@
   <body>
     <header class="header container">
       <a href="" class="header-logo">Brit<span class="landing">lex</span></a>
+      <svg class="header-svg" width="30" height="30">
+        <use href="./img/symbol-defs.svg#menu"></use>
+      </svg>
       <nav class="header-nav">
         <ul class="nav-list">
           <li class="nav-item">
@@ -45,6 +48,7 @@
     </header>
     <main>
       <section class="hero container">
+        <img class="hero-img" src="./img/hero-1.png" alt="learn" />
         <div>
           <h1 class="hero-title">Learn Any Foreign Language</h1>
           <p class="hero-text">
@@ -53,44 +57,33 @@
           </p>
           <button class="hero-button">Get started</button>
         </div>
-        <div>
-          <img
-            class="hero-img"
-            src="./img/hero-learning.jpg"
-            alt="learning"
-            width="600px"
-            height="600px"
-          />
-        </div>
       </section>
       <section class="skills container">
         <h2 class="skills-title">Skills</h2>
         <ul class="skills-list">
-          <li class="skills-item">
+          <li class="skills-item item-1">
             <img
               class="skills-item-img"
-              src="./img/skills-1.jpg"
+              src="./img/skills-1.png"
               alt="skills"
-              width="390px"
-              height="390px"
             />
             <h3 class="skills-item-title">Speaking</h3>
             <p class="skills-item-text">
               Improve your English skills and confidence. Live classes and
               interactive lessons online. 20% extra free for a limited time only
+              <br />
+              <br />
               Learn English online and improve your skills through our
               high-quality courses and resources – all designed for adult
               language learners.
             </p>
             <button class="skills-item-btn">Learn more</button>
           </li>
-          <li class="skills-item">
+          <li class="skills-item item-2">
             <img
               class="skills-item-img"
-              src="./img/skills-2.jpg"
+              src="./img/skills-2.png"
               alt="skills"
-              width="293px"
-              height="293px"
             />
             <h3 class="skills-item-title">Writing</h3>
             <p class="skills-item-text">
@@ -99,13 +92,11 @@
             </p>
             <button class="skills-item-btn">Learn more</button>
           </li>
-          <li class="skills-item">
+          <li class="skills-item item-3">
             <img
               class="skills-item-img"
-              src="./img/skills-3.jpg"
+              src="./img/skills-3.png"
               alt="skills"
-              width="371px"
-              height="247px"
             />
             <h3 class="skills-item-title">Reading</h3>
             <p class="skills-item-text">
@@ -114,13 +105,11 @@
             </p>
             <button class="skills-item-btn">Learn more</button>
           </li>
-          <li class="skills-item">
+          <li class="skills-item item-4">
             <img
               class="skills-item-img"
-              src="./img/skills-4.jpg"
+              src="./img/skills-4.png"
               alt="skills"
-              width="382px"
-              height="255px"
             />
             <h3 class="skills-item-title">Listening</h3>
             <p class="skills-item-text">
@@ -132,6 +121,8 @@
         </ul>
       </section>
       <section class="about container">
+        <img class="about-img" src="./img/about.jpg" alt="about" />
+
         <div>
           <h2 class="about-title">About Us</h2>
           <p class="about-text">
@@ -157,15 +148,6 @@
             </li>
           </ul>
         </div>
-        <div>
-          <img
-            class="about-img"
-            src="./img/about.jpg"
-            alt="about"
-            width="500px"
-            height="500px"
-          />
-        </div>
       </section>
       <section class="Pricing container">
         <h2 class="pricing-title">Pricing</h2>
@@ -175,8 +157,8 @@
               class="pricing-item-img"
               src="./img/pricing-1.jpg"
               alt="pricing"
-              width="311px"
-              height="311px"
+              width="248"
+              height="248"
             />
             <h3 class="pricing-item-title">Self-study online course</h3>
             <p class="pricing-item-text">
@@ -193,8 +175,8 @@
               class="pricing-item-img"
               src="./img/pricing-2.jpg"
               alt="pricing"
-              width="391px"
-              height="283px"
+              width="248"
+              height="248"
             />
             <h3 class="pricing-item-title">Live online classes</h3>
             <p class="pricing-item-text">
@@ -210,8 +192,8 @@
               class="pricing-item-img"
               src="./img/pricing-3.jpg"
               alt="pricing"
-              width="340px"
-              height="340px"
+              width="248"
+              height="248"
             />
             <h3 class="pricing-item-title">Personal Tuition</h3>
             <p class="pricing-item-text">
@@ -231,30 +213,31 @@
             class="contact-img"
             src="./img/contact-1.jpg"
             alt="contact"
-            width="477px"
-            height="429px"
+            width="253"
+            height="228"
           />
         </div>
         <div>
           <h2 class="contact-title">Contact Us</h2>
           <p class="contact-text">
             Discover your current English level by taking our free online
-            English test.Sign up to our newsletter for learning tips and free
+            English test. Sign up to our newsletter for learning tip and free
             resources
           </p>
           <form class="contact-bunner-form">
             <input
-              type="contact-text"
+              type="email"
+              required
               class="contact-bunner-input"
               placeholder="Enter Your E-mail"
             />
-            <button type="button" class="contact-bunner-btn">Subscribe</button>
+            <button type="submit" class="contact-bunner-btn">Subscribe</button>
           </form>
         </div>
       </section>
     </main>
+    <hr class="footer-line container" />
     <footer class="footer container">
-      <hr class="footer-line" />
       <ul class="footer-list">
         <li class="footer-item">
           <a href="" class="footer-logo"
@@ -268,5 +251,6 @@
         </li>
       </ul>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

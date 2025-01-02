@@ -1,32 +1,36 @@
 .header {
   display: flex;
   align-items: center;
-  padding: 75px 0;
+  padding: 50px 0;
 }
 .container {
 }
 .header-logo {
   color: #000;
-  font-size: 36px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
 }
 .landing {
   color: #939393;
-  font-size: 36px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
 }
+.header-svg {
+  margin-left: 300px;
+}
 .header-nav {
-  display: flex;
+  display: none;
   align-items: center;
 }
 .nav-list {
   display: flex;
   gap: 51px;
-  margin-left: 253px;
+  margin-left: -200px;
 }
 .nav-item {
+  width: 94px;
 }
 .nav-link {
   color: #263238;
@@ -52,4 +56,10 @@
 .nav-btn:hover {
   color: #fff;
   background-color: #263238;
+}
+@media screen and (min-width: 992px) {
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
 }
